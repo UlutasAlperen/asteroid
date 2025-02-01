@@ -14,6 +14,7 @@ def game_loop(screen):
                 return
 
         screen.fill((0,0,0))
+        player1.update(dt)
         player1.draw(screen)
         pygame.display.flip()
         dt = clock.tick(FRAME_RATE) / 1000  # FRAME_RATE = 60

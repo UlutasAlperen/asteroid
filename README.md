@@ -17,3 +17,13 @@ Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
+## How to Start the Game
+
+To start the game, run the following command:
+
+```bash
+python3 main.py
+```
+
+Make sure you have all the necessary dependencies installed before running the game.
+

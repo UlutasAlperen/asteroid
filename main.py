@@ -40,12 +40,10 @@ def game_loop(screen):
                 print("Game over!")
                 sys.exit()
 
-
-        for asteroid in asteroids:
             for shot in shots:
                 if shot.collides_with(asteroid):
-                    asteroid.kill()
                     shot.kill()
+                    asteroid.split()
 
 
         screen.fill((0,0,0))

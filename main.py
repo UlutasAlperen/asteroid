@@ -8,7 +8,6 @@ from shot import Shot
 from scorepopup import ScorePopup
 
 
-
 def game_loop(screen):
     score = 0
     clock = pygame.time.Clock() # add clock
